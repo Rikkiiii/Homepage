@@ -1,0 +1,43 @@
+site_name: Rikki(Yuxin)'s Homepage
+theme:
+  name: material
+
+nav:
+  - Homepage: 
+    - index.md
+  - Projects: 
+    - Overview: Projects/index.md
+    - Bayesian Diabetes Analysis: Projects/diabetes.md
+    - Big Data in Clinical Decision Support: Projects/bigdata_cdss.md
+    - Daisyworld and Gaia Theory: Projects/daisyworld.md
+    - Electricity Demand Forecasting: Projects/EDF.md
+    - SUEZ Smart Water Solutions NZ: Projects/suez_smart.md
+    - Traffic Congestion Analysis (SH1 Greenlane): Projects/traffic_queue.md
+    - Forecasting New Zealand Electricity Price: Projects/EPF.md
+  - Experience: 
+    - Experience/index2.md
+    - Supply Chain: Experience/supply_chain.md
+    - Research Assistant: Experience/research_assistant.md
+    - Teacher Assistant: Experience/teacher_assistant.md
+    - Internship: Experience/internship.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-night
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+
+
